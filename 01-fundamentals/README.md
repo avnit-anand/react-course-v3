@@ -259,9 +259,9 @@ function Greeting() {
   );
 }
 
-const Person = () => <h2>john doe</h2>;
+const Person = () => <h2>john doe</h2>;  // Implicit Return function
 const Message = () => {
-  return <p>this is my message</p>;
+  return <p>this is my message</p>;  // Explicit Return function
 };
 ```
 
